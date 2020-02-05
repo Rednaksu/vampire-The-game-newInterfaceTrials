@@ -10,10 +10,15 @@
 		1C60745A23E49B04003A703F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60745923E49B04003A703F /* AppDelegate.swift */; };
 		1C60745C23E49B04003A703F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60745B23E49B04003A703F /* SceneDelegate.swift */; };
 		1C60745F23E49B04003A703F /* newInterfaceTrials.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C60745D23E49B04003A703F /* newInterfaceTrials.xcdatamodeld */; };
-		1C60746123E49B04003A703F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60746023E49B04003A703F /* ContentView.swift */; };
+		1C60746123E49B04003A703F /* IndividualRolesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60746023E49B04003A703F /* IndividualRolesView.swift */; };
 		1C60746323E49B0B003A703F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C60746223E49B0B003A703F /* Assets.xcassets */; };
 		1C60746623E49B0B003A703F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C60746523E49B0B003A703F /* Preview Assets.xcassets */; };
 		1C60746923E49B0B003A703F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C60746723E49B0B003A703F /* LaunchScreen.storyboard */; };
+		1C60747123E49FA3003A703F /* RolesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60747023E49FA3003A703F /* RolesView.swift */; };
+		1CC87D2123E8B802002A9FDD /* PlayerInGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC87D2023E8B802002A9FDD /* PlayerInGameView.swift */; };
+		1CC87D2323E96C58002A9FDD /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC87D2223E96C58002A9FDD /* MainMenu.swift */; };
+		1CC87D2523E97FF4002A9FDD /* HowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC87D2423E97FF4002A9FDD /* HowToPlay.swift */; };
+		1CC87D2723E9AD80002A9FDD /* PlayersLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC87D2623E9AD80002A9FDD /* PlayersLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +26,16 @@
 		1C60745923E49B04003A703F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C60745B23E49B04003A703F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C60745E23E49B04003A703F /* newInterfaceTrials.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newInterfaceTrials.xcdatamodel; sourceTree = "<group>"; };
-		1C60746023E49B04003A703F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C60746023E49B04003A703F /* IndividualRolesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualRolesView.swift; sourceTree = "<group>"; };
 		1C60746223E49B0B003A703F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C60746523E49B0B003A703F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C60746823E49B0B003A703F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C60746A23E49B0B003A703F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C60747023E49FA3003A703F /* RolesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolesView.swift; sourceTree = "<group>"; };
+		1CC87D2023E8B802002A9FDD /* PlayerInGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInGameView.swift; sourceTree = "<group>"; };
+		1CC87D2223E96C58002A9FDD /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		1CC87D2423E97FF4002A9FDD /* HowToPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlay.swift; sourceTree = "<group>"; };
+		1CC87D2623E9AD80002A9FDD /* PlayersLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,12 @@
 			children = (
 				1C60745923E49B04003A703F /* AppDelegate.swift */,
 				1C60745B23E49B04003A703F /* SceneDelegate.swift */,
-				1C60746023E49B04003A703F /* ContentView.swift */,
+				1C60746023E49B04003A703F /* IndividualRolesView.swift */,
+				1C60747023E49FA3003A703F /* RolesView.swift */,
+				1CC87D2023E8B802002A9FDD /* PlayerInGameView.swift */,
+				1CC87D2223E96C58002A9FDD /* MainMenu.swift */,
+				1CC87D2423E97FF4002A9FDD /* HowToPlay.swift */,
+				1CC87D2623E9AD80002A9FDD /* PlayersLibrary.swift */,
 				1C60746223E49B0B003A703F /* Assets.xcassets */,
 				1C60746723E49B0B003A703F /* LaunchScreen.storyboard */,
 				1C60746A23E49B0B003A703F /* Info.plist */,
@@ -150,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C60745A23E49B04003A703F /* AppDelegate.swift in Sources */,
+				1CC87D2523E97FF4002A9FDD /* HowToPlay.swift in Sources */,
+				1C60747123E49FA3003A703F /* RolesView.swift in Sources */,
+				1CC87D2323E96C58002A9FDD /* MainMenu.swift in Sources */,
+				1CC87D2123E8B802002A9FDD /* PlayerInGameView.swift in Sources */,
 				1C60745C23E49B04003A703F /* SceneDelegate.swift in Sources */,
-				1C60746123E49B04003A703F /* ContentView.swift in Sources */,
+				1C60746123E49B04003A703F /* IndividualRolesView.swift in Sources */,
 				1C60745F23E49B04003A703F /* newInterfaceTrials.xcdatamodeld in Sources */,
+				1CC87D2723E9AD80002A9FDD /* PlayersLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
